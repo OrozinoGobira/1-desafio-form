@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Passion+One&family=Sriracha&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap');
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+
+:root {
+   --font-principal:#00FF00;
+   --font-fundo:#000000;        
+   --font-ubunt: 'Ubuntu Mono', monospace;
+   --font-title: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#container {
+    background-color: #000000;
+    width: 350px;
+    height: 460px;
+    box-shadow: 0px 0px 10px 10px, inset 0 0 10px #00FF00;
+    color: #00FF00;
+    border-radius: 20px;
+    padding-left: 10px;    
+}
+.title {
+    margin-top: 10px;
+    color: var(--font-principal);
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: var(--font-title);
+    text-transform: uppercase;
+}
+label {
+    margin-left: 20px;
+    font-size: 19px;
+}
+.formInput {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #111111;
+    color: #00FF00;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+   width: 300px;
+   height: 25px;
+   margin-top: 4px;
+   margin-left: 20px;
+
+}
+.formInput:focus {
+    box-shadow: 0 0 5px #00FF00;
+}
+.msg {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #111111;
+    color: #00FF00;
+    border: none;
+    outline:none ;
+}
+.msg:focus {
+  box-shadow: 0 0 5px #00FF00;
+}
+.button {
+    padding-left: 20px;
+    background-color: var(--font-principal);
+    font-weight: bold;
+    width: 340px;
+    height: 40px;
+
+}
+.button:hover {
+    background-color: #00ff00b9;
+}
